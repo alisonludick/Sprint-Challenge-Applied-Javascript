@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The Document Object Model is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document. DOM methods allow programmatic access to the tree; with them one can change the structure, style or content of a document.
+
 2. What is an event?
+
+An event is an action or occurrence recognized by software, often originating asynchronously from the external environment, that may be handled by the software. Computer events can be generated or triggered by the system, by the user or in other ways. A source of events includes the user, who may interact with the software by way of, for example, keystrokes on the keyboard. Another source is a hardware device such as a timer. 
 
 3. What is an event listener?
 
+It is the particular instruction or action assigned to functions that trigger specific events which may result in changing the structure, style or content of a document. 
+
 4. Why would we convert a NodeList into an Array?
 
+You can’t manipulate NodeLists the same way you can an Array, so converting it would allow you to use methods like forEach, filter or may, which are part of the Array but not part of the NodeList. 
+ 
 5. What is a component?
+
+Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.
 
 ### Git Set up
 
